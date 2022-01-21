@@ -1,0 +1,356 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title "Step-down DC-DC converter"
+Date "2022-01-21"
+Rev "1"
+Comp "Sporniket-Studio.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L xl4005:XL4005 U101
+U 1 1 61EAD7DF
+P 4000 4750
+F 0 "U101" H 4000 4800 50  0000 C CNN
+F 1 "XL4005" H 4000 4700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 4000 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808111512_XLSEMI-XL4005E1_C73332.pdf" H 4000 4750 50  0001 C CNN
+	1    4000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C103
+U 1 1 61EAEB42
+P 3000 4950
+F 0 "C103" H 3000 5050 50  0000 L CNN
+F 1 "0.1uF" H 3000 4850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3000 4950 50  0001 C CNN
+F 3 "~" H 3000 4950 50  0001 C CNN
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C102
+U 1 1 61EAF298
+P 2400 4950
+F 0 "C102" H 2400 5050 50  0000 L CNN
+F 1 "470uF 50V" H 2400 4850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 2400 4950 50  0001 C CNN
+F 3 "~" H 2400 4950 50  0001 C CNN
+	1    2400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small_ALT D101
+U 1 1 61EAF8CB
+P 5300 5000
+F 0 "D101" V 5200 5000 50  0000 L CNN
+F 1 "50WQ03" V 5400 5000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" V 5300 5000 50  0001 C CNN
+F 3 "~" V 5300 5000 50  0001 C CNN
+	1    5300 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Small L101
+U 1 1 61EAFC29
+P 5700 4750
+F 0 "L101" V 5800 4700 50  0000 L CNN
+F 1 "33uH 5A" V 5650 4600 50  0000 L CNN
+F 2 "Inductor_SMD:L_10.4x10.4_H4.8" H 5700 4750 50  0001 C CNN
+F 3 "~" H 5700 4750 50  0001 C CNN
+	1    5700 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R102
+U 1 1 61EB1D52
+P 4500 3500
+F 0 "R102" H 4550 3550 50  0000 L CNN
+F 1 "2K" H 4550 3450 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4500 3500 50  0001 C CNN
+F 3 "~" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R101
+U 1 1 61EB1E01
+P 4500 2500
+F 0 "R101" H 4550 2550 50  0000 L CNN
+F 1 "9K–27K" H 4550 2450 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4500 2500 50  0001 C CNN
+F 3 "~" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV101
+U 1 1 61EB27E7
+P 4500 2000
+F 0 "RV101" H 4500 2300 50  0000 C CNN
+F 1 "2K Bourns 3214W" H 4500 2200 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical" H 4500 2000 50  0001 C CNN
+F 3 "~" H 4500 2000 50  0001 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C101
+U 1 1 61EB2D8B
+P 5000 2350
+F 0 "C101" H 5010 2420 50  0000 L CNN
+F 1 "33nF" H 5010 2270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5000 2350 50  0001 C CNN
+F 3 "~" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J101
+U 1 1 61EB3D43
+P 1500 4900
+F 0 "J101" H 1500 5000 50  0000 C CNN
+F 1 "Conn_01x02" H 1500 4700 50  0000 C CNN
+F 2 "castellated:castellated_2x4_fingers" H 1500 4900 50  0001 C CNN
+F 3 "~" H 1500 4900 50  0001 C CNN
+	1    1500 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR0103
+U 1 1 61EB427F
+P 2000 4750
+F 0 "#PWR0103" H 2000 4600 50  0001 C CNN
+F 1 "+15V" H 2000 4890 50  0000 C CNN
+F 2 "" H 2000 4750 50  0001 C CNN
+F 3 "" H 2000 4750 50  0001 C CNN
+	1    2000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 61EB4493
+P 2000 5150
+F 0 "#PWR0105" H 2000 4900 50  0001 C CNN
+F 1 "GND" H 2000 5000 50  0000 C CNN
+F 2 "" H 2000 5150 50  0001 C CNN
+F 3 "" H 2000 5150 50  0001 C CNN
+	1    2000 5150
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 4500 0    50   ~ 0
+Power input and filtering
+Wire Wire Line
+	3000 4750 3000 4850
+Wire Wire Line
+	2400 4850 2400 4750
+Wire Wire Line
+	3000 5150 3000 5050
+Wire Wire Line
+	2400 5050 2400 5150
+Wire Wire Line
+	3000 4750 3300 4750
+Connection ~ 3000 4750
+Wire Wire Line
+	3300 4750 3300 5250
+Wire Wire Line
+	3300 5250 3700 5250
+Wire Wire Line
+	3700 5250 3700 5150
+Connection ~ 3300 4750
+Wire Wire Line
+	3300 4750 3400 4750
+$Comp
+L power:GND #PWR0107
+U 1 1 61EBAAC3
+P 4300 5500
+F 0 "#PWR0107" H 4300 5250 50  0001 C CNN
+F 1 "GND" H 4300 5350 50  0000 C CNN
+F 2 "" H 4300 5500 50  0001 C CNN
+F 3 "" H 4300 5500 50  0001 C CNN
+	1    4300 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5500 4300 5150
+$Comp
+L Connector_Generic:Conn_01x02 J102
+U 1 1 61EBB426
+P 7100 4950
+F 0 "J102" H 7100 5050 50  0000 C CNN
+F 1 "Conn_01x02" H 7100 4750 50  0000 C CNN
+F 2 "castellated:castellated_2x4_fingers" H 7100 4950 50  0001 C CNN
+F 3 "~" H 7100 4950 50  0001 C CNN
+	1    7100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4900 1900 4900
+Wire Wire Line
+	1900 4900 1900 4750
+Wire Wire Line
+	1900 4750 2000 4750
+Connection ~ 2000 4750
+Wire Wire Line
+	2000 4750 2400 4750
+Wire Wire Line
+	1700 5000 1800 5000
+Wire Wire Line
+	1800 5000 1800 5150
+Wire Wire Line
+	1800 5150 2000 5150
+Connection ~ 2000 5150
+Wire Wire Line
+	2000 5150 2400 5150
+Wire Wire Line
+	6700 4750 6700 4950
+Wire Wire Line
+	6700 4950 6900 4950
+Wire Wire Line
+	6800 5250 6800 5050
+Wire Wire Line
+	6800 5050 6900 5050
+$Comp
+L power:GND #PWR0106
+U 1 1 61EBEAC9
+P 6600 5250
+F 0 "#PWR0106" H 6600 5000 50  0001 C CNN
+F 1 "GND" H 6600 5100 50  0000 C CNN
+F 2 "" H 6600 5250 50  0001 C CNN
+F 3 "" H 6600 5250 50  0001 C CNN
+	1    6600 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 5250
+Wire Wire Line
+	6600 5250 6800 5250
+$Comp
+L power:+5V #PWR0104
+U 1 1 61EBF25A
+P 6600 4750
+F 0 "#PWR0104" H 6600 4600 50  0001 C CNN
+F 1 "+5V" H 6600 4890 50  0000 C CNN
+F 2 "" H 6600 4750 50  0001 C CNN
+F 3 "" H 6600 4750 50  0001 C CNN
+	1    6600 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 4750
+Wire Wire Line
+	6600 4750 6700 4750
+Wire Wire Line
+	6100 4750 6100 4900
+Wire Wire Line
+	6100 4750 6600 4750
+Wire Wire Line
+	6100 5100 6100 5250
+Wire Wire Line
+	6100 5250 6600 5250
+Wire Wire Line
+	5300 4900 5300 4750
+Wire Wire Line
+	5300 4750 5600 4750
+Wire Wire Line
+	5800 4750 6100 4750
+Connection ~ 6100 4750
+Wire Wire Line
+	6100 5250 5300 5250
+Wire Wire Line
+	5300 5250 5300 5100
+Connection ~ 6100 5250
+$Comp
+L Device:CP1_Small C104
+U 1 1 61EC110D
+P 6100 5000
+F 0 "C104" H 6100 5100 50  0000 L CNN
+F 1 "470uF 50V" H 6100 4900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 6100 5000 50  0001 C CNN
+F 3 "~" H 6100 5000 50  0001 C CNN
+	1    6100 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 4500 0    50   ~ 0
+Power output and filtering
+$Comp
+L power:GND #PWR0102
+U 1 1 61EC513B
+P 4500 3800
+F 0 "#PWR0102" H 4500 3550 50  0001 C CNN
+F 1 "GND" H 4500 3650 50  0000 C CNN
+F 2 "" H 4500 3800 50  0001 C CNN
+F 3 "" H 4500 3800 50  0001 C CNN
+	1    4500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3400 4500 3000
+Wire Wire Line
+	4500 2400 4500 2150
+Wire Wire Line
+	4650 2000 5000 2000
+Wire Wire Line
+	5000 2750 4500 2750
+Connection ~ 4500 2750
+Wire Wire Line
+	4500 2750 4500 2600
+$Comp
+L power:+5V #PWR0101
+U 1 1 61EC92B7
+P 5000 1700
+F 0 "#PWR0101" H 5000 1550 50  0001 C CNN
+F 1 "+5V" H 5000 1840 50  0000 C CNN
+F 2 "" H 5000 1700 50  0001 C CNN
+F 3 "" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2000 5000 1700
+Wire Wire Line
+	5000 2250 5000 2000
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2450 5000 2750
+Wire Wire Line
+	4500 3800 4500 3600
+Connection ~ 2400 4750
+Connection ~ 2400 5150
+Wire Wire Line
+	2400 4750 3000 4750
+Wire Wire Line
+	2400 5150 3000 5150
+Text Notes 4000 2200 2    50   ~ 0
+R + RV values according to output voltage\n5V  --> 10K5\n12V --> 28K \n
+Text Notes 4350 1500 0    50   ~ 0
+Output voltage setup
+Wire Wire Line
+	4000 4350 4000 3000
+Wire Wire Line
+	4000 3000 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 2750
+$Comp
+L Device:Fuse_Small F101
+U 1 1 61EE40E9
+P 5000 4750
+F 0 "F101" H 5000 4650 50  0000 C CNN
+F 1 "2A" H 5000 4850 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 4750 50  0001 C CNN
+F 3 "~" H 5000 4750 50  0001 C CNN
+	1    5000 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4750 4900 4750
+Wire Wire Line
+	5100 4750 5300 4750
+Connection ~ 5300 4750
+$EndSCHEMATC

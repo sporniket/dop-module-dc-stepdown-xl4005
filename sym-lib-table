@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name xl4005)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/voltage-regulators-dc-dc/xl4005.lib)(options "")(descr ""))
+)
