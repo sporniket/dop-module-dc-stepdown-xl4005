@@ -180,17 +180,6 @@ F 3 "" H 4300 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 5500 4300 5150
-$Comp
-L Connector_Generic:Conn_01x02 J102
-U 1 1 61EBB426
-P 7400 4950
-F 0 "J102" H 7400 5050 50  0000 C CNN
-F 1 "Conn_01x02" H 7400 4750 50  0000 C CNN
-F 2 "castellated:castellated_2x4_fingers" H 7400 4950 50  0001 C CNN
-F 3 "~" H 7400 4950 50  0001 C CNN
-	1    7400 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1700 4900 1900 4900
 Wire Wire Line
@@ -209,67 +198,6 @@ Wire Wire Line
 Connection ~ 2000 5150
 Wire Wire Line
 	2000 5150 2400 5150
-Wire Wire Line
-	7000 4750 7000 4950
-Wire Wire Line
-	7000 4950 7200 4950
-Wire Wire Line
-	7100 5250 7100 5050
-Wire Wire Line
-	7100 5050 7200 5050
-$Comp
-L power:GND #PWR0106
-U 1 1 61EBEAC9
-P 6900 5250
-F 0 "#PWR0106" H 6900 5000 50  0001 C CNN
-F 1 "GND" H 6900 5100 50  0000 C CNN
-F 2 "" H 6900 5250 50  0001 C CNN
-F 3 "" H 6900 5250 50  0001 C CNN
-	1    6900 5250
-	1    0    0    -1  
-$EndComp
-Connection ~ 6900 5250
-Wire Wire Line
-	6900 5250 7100 5250
-$Comp
-L power:+5V #PWR0104
-U 1 1 61EBF25A
-P 6900 4750
-F 0 "#PWR0104" H 6900 4600 50  0001 C CNN
-F 1 "+5V" H 6900 4890 50  0000 C CNN
-F 2 "" H 6900 4750 50  0001 C CNN
-F 3 "" H 6900 4750 50  0001 C CNN
-	1    6900 4750
-	1    0    0    -1  
-$EndComp
-Connection ~ 6900 4750
-Wire Wire Line
-	6900 4750 7000 4750
-Wire Wire Line
-	6400 4750 6400 4900
-Wire Wire Line
-	6400 4750 6900 4750
-Wire Wire Line
-	6400 5100 6400 5250
-Wire Wire Line
-	6400 5250 6900 5250
-Wire Wire Line
-	6100 4750 6400 4750
-Connection ~ 6400 4750
-Wire Wire Line
-	6400 5250 5700 5250
-Connection ~ 6400 5250
-$Comp
-L Device:CP1_Small C104
-U 1 1 61EC110D
-P 6400 5000
-F 0 "C104" H 6400 5100 50  0000 L CNN
-F 1 "470uF 50V" H 6400 4900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 6400 5000 50  0001 C CNN
-F 3 "~" H 6400 5000 50  0001 C CNN
-	1    6400 5000
-	1    0    0    -1  
-$EndComp
 Text Notes 5900 4500 0    50   ~ 0
 Power output and filtering
 $Comp
@@ -425,4 +353,76 @@ Wire Wire Line
 Connection ~ 5600 4750
 Wire Wire Line
 	5600 4750 5900 4750
+Wire Wire Line
+	7100 5250 7100 5050
+Wire Wire Line
+	7000 4750 7000 4950
+Wire Wire Line
+	7100 5050 7200 5050
+Wire Wire Line
+	7000 4950 7200 4950
+$Comp
+L Connector_Generic:Conn_01x02 J102
+U 1 1 61EBB426
+P 7400 4950
+F 0 "J102" H 7400 5050 50  0000 C CNN
+F 1 "Conn_01x02" H 7400 4750 50  0000 C CNN
+F 2 "castellated:castellated_2x4_fingers" H 7400 4950 50  0001 C CNN
+F 3 "~" H 7400 4950 50  0001 C CNN
+	1    7400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4750 7000 4750
+Connection ~ 6900 4750
+Connection ~ 6900 5250
+$Comp
+L power:+5V #PWR0104
+U 1 1 61EBF25A
+P 6900 4750
+F 0 "#PWR0104" H 6900 4600 50  0001 C CNN
+F 1 "+5V" H 6900 4890 50  0000 C CNN
+F 2 "" H 6900 4750 50  0001 C CNN
+F 3 "" H 6900 4750 50  0001 C CNN
+	1    6900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5250 7100 5250
+$Comp
+L power:GND #PWR0106
+U 1 1 61EBEAC9
+P 6900 5250
+F 0 "#PWR0106" H 6900 5000 50  0001 C CNN
+F 1 "GND" H 6900 5100 50  0000 C CNN
+F 2 "" H 6900 5250 50  0001 C CNN
+F 3 "" H 6900 5250 50  0001 C CNN
+	1    6900 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 5250
+Connection ~ 6400 4750
+Wire Wire Line
+	6400 5250 6900 5250
+Wire Wire Line
+	6400 4750 6900 4750
+Wire Wire Line
+	6400 5250 5700 5250
+Wire Wire Line
+	6100 4750 6400 4750
+$Comp
+L Device:CP1_Small C104
+U 1 1 61EC110D
+P 6400 5000
+F 0 "C104" H 6400 5100 50  0000 L CNN
+F 1 "470uF 50V" H 6400 4900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 6400 5000 50  0001 C CNN
+F 3 "~" H 6400 5000 50  0001 C CNN
+	1    6400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5100 6400 5250
+Wire Wire Line
+	6400 4750 6400 4900
 $EndSCHEMATC
