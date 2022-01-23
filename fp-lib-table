@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name castellated)(type KiCad)(uri ${KIPRJMOD}/castellated.pretty)(options "")(descr ""))
+  (lib (name cliparts)(type KiCad)(uri ${KIPRJMOD}/cliparts.pretty)(options "")(descr ""))
 )
