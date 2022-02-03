@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name xl4005)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/voltage-regulators-dc-dc/xl4005.lib)(options "")(descr ""))
+  (lib (name falcon_combel)(type Legacy)(uri /home/dsporn/Projects/kicad-symbols-generated/ics/atari-16-32/falcon_combel.lib)(options "")(descr ""))
 )
