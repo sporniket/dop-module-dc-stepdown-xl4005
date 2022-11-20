@@ -13,111 +13,39 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 8650 4550
-Connection ~ 8300 4550
-Wire Wire Line
-	8300 4550 8650 4550
-Connection ~ 7700 4550
 Connection ~ 7250 4550
 Wire Wire Line
-	7250 4550 7700 4550
+	7900 5350 7900 5250
 Wire Wire Line
-	8650 5050 8650 4950
-Connection ~ 8650 5050
-Connection ~ 7250 5050
+	7900 5250 7900 5150
+Connection ~ 7900 5250
 Wire Wire Line
-	7250 5050 8650 5050
+	8000 5250 7900 5250
 Wire Wire Line
-	9350 4750 9350 4850
-Connection ~ 9350 4750
+	7900 5150 7900 5050
+Connection ~ 7900 5150
 Wire Wire Line
-	9250 4750 9350 4750
+	7900 5150 8000 5150
 Wire Wire Line
-	9350 4850 9350 4950
-Connection ~ 9350 4850
+	8000 5050 7900 5050
 Wire Wire Line
-	9250 4850 9350 4850
+	8000 4250 7900 4250
 Wire Wire Line
-	9350 4950 9350 5200
-Connection ~ 9350 4950
+	7900 4350 7900 4250
+Connection ~ 7900 4350
 Wire Wire Line
-	9250 4950 9350 4950
+	7900 4350 8000 4350
 Wire Wire Line
-	8650 4950 8650 4850
-Connection ~ 8650 4950
+	7900 4450 7900 4350
+Connection ~ 7900 4450
 Wire Wire Line
-	8750 4950 8650 4950
+	8000 4450 7900 4450
 Wire Wire Line
-	8650 4850 8650 4750
-Connection ~ 8650 4850
+	7900 5350 8000 5350
 Wire Wire Line
-	8650 4850 8750 4850
+	7900 4550 7900 4450
 Wire Wire Line
-	8650 4750 8650 4650
-Connection ~ 8650 4750
-Wire Wire Line
-	8750 4750 8650 4750
-Wire Wire Line
-	9350 4450 9350 4550
-Connection ~ 9350 4450
-Wire Wire Line
-	9250 4450 9350 4450
-Wire Wire Line
-	9350 4350 9350 4450
-Connection ~ 9350 4350
-Wire Wire Line
-	9250 4350 9350 4350
-Wire Wire Line
-	9350 4250 9350 4350
-Connection ~ 9350 4250
-Wire Wire Line
-	9250 4250 9350 4250
-Wire Wire Line
-	8650 4250 8650 4000
-Connection ~ 8650 4250
-Wire Wire Line
-	8750 4250 8650 4250
-Wire Wire Line
-	8650 4350 8650 4250
-Connection ~ 8650 4350
-Wire Wire Line
-	8650 4350 8750 4350
-Wire Wire Line
-	8650 4450 8650 4350
-Connection ~ 8650 4450
-Wire Wire Line
-	8750 4450 8650 4450
-Wire Wire Line
-	8650 4650 8750 4650
-Wire Wire Line
-	8650 5200 8650 5050
-Wire Wire Line
-	9350 5200 8650 5200
-Wire Wire Line
-	9350 4650 9350 4750
-Wire Wire Line
-	9250 4650 9350 4650
-Wire Wire Line
-	9350 4550 9250 4550
-Wire Wire Line
-	9350 4000 9350 4250
-Wire Wire Line
-	8650 4000 9350 4000
-Wire Wire Line
-	8650 4550 8650 4450
-Wire Wire Line
-	8750 4550 8650 4550
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J102
-U 1 1 62AE8C9E
-P 8950 4550
-F 0 "J102" H 9000 4950 50  0000 C CNN
-F 1 "Output" H 9000 4050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8950 4550 50  0001 C CNN
-F 3 "~" H 8950 4550 50  0001 C CNN
-	1    8950 4550
-	1    0    0    -1  
-$EndComp
+	8000 4550 7900 4550
 Wire Wire Line
 	2000 4950 2000 5200
 Connection ~ 2000 4950
@@ -125,58 +53,22 @@ Wire Wire Line
 	2100 4950 2000 4950
 Wire Wire Line
 	2000 4850 2000 4950
-Connection ~ 2000 4850
 Wire Wire Line
 	2100 4850 2000 4850
 Wire Wire Line
-	2000 4750 2000 4850
-Connection ~ 2000 4750
-Wire Wire Line
-	2100 4750 2000 4750
-Connection ~ 2700 4850
-Wire Wire Line
 	2600 4850 2700 4850
-Wire Wire Line
-	2700 4750 2700 4650
-Connection ~ 2700 4750
-Wire Wire Line
-	2600 4750 2700 4750
 Connection ~ 2700 4950
 Wire Wire Line
 	2700 4950 2700 4850
 Wire Wire Line
 	2700 4950 2600 4950
 Wire Wire Line
-	2000 4650 2000 4750
-Wire Wire Line
-	2100 4650 2000 4650
-Wire Wire Line
 	2000 4250 2000 4350
-Connection ~ 2000 4250
 Wire Wire Line
 	2100 4250 2000 4250
-Wire Wire Line
-	2000 4350 2000 4450
 Connection ~ 2000 4350
 Wire Wire Line
 	2000 4350 2100 4350
-Wire Wire Line
-	2000 4450 2000 4550
-Connection ~ 2000 4450
-Wire Wire Line
-	2100 4450 2000 4450
-Connection ~ 2700 4250
-Wire Wire Line
-	2000 4550 2100 4550
-Wire Wire Line
-	2000 4000 2000 4250
-Wire Wire Line
-	2700 4000 2000 4000
-Wire Wire Line
-	2700 4250 2700 4000
-Connection ~ 2700 4450
-Wire Wire Line
-	2600 4450 2700 4450
 Wire Wire Line
 	2700 4350 2700 4250
 Connection ~ 2700 4350
@@ -184,23 +76,6 @@ Wire Wire Line
 	2600 4350 2700 4350
 Wire Wire Line
 	2700 4250 2600 4250
-Wire Wire Line
-	2700 4550 2700 4450
-Wire Wire Line
-	2600 4650 2700 4650
-Wire Wire Line
-	2600 4550 2700 4550
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J101
-U 1 1 62AC8314
-P 2300 4550
-F 0 "J101" H 2350 4950 50  0000 C CNN
-F 1 "Input" H 2350 4050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 2300 4550 50  0001 C CNN
-F 3 "~" H 2300 4550 50  0001 C CNN
-	1    2300 4550
-	1    0    0    -1  
-$EndComp
 Connection ~ 5950 4550
 Wire Wire Line
 	5850 4550 5950 4550
@@ -214,7 +89,7 @@ U 1 1 61EC110D
 P 6750 4800
 F 0 "C104" H 6750 4900 50  0000 L CNN
 F 1 "470uF 50V" H 6750 4700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 6750 4800 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 6750 4800 50  0001 C CNN
 F 3 "~" H 6750 4800 50  0001 C CNN
 	1    6750 4800
 	1    0    0    -1  
@@ -262,82 +137,6 @@ Wire Wire Line
 Connection ~ 6050 5050
 Wire Wire Line
 	6050 5000 6050 5050
-Wire Wire Line
-	8300 4350 8300 4250
-Connection ~ 8300 4350
-Wire Wire Line
-	8100 4350 8300 4350
-Wire Wire Line
-	8300 4450 8300 4350
-Connection ~ 8300 4450
-Wire Wire Line
-	8100 4450 8300 4450
-Wire Wire Line
-	8100 4550 8300 4550
-Wire Wire Line
-	8100 4250 8300 4250
-Wire Wire Line
-	8300 4550 8300 4450
-Wire Wire Line
-	7700 4450 7700 4550
-Connection ~ 7700 4450
-Wire Wire Line
-	7900 4450 7700 4450
-Wire Wire Line
-	7700 4350 7700 4450
-Connection ~ 7700 4350
-Wire Wire Line
-	7900 4350 7700 4350
-Wire Wire Line
-	7700 4250 7900 4250
-Wire Wire Line
-	7700 4550 7900 4550
-Wire Wire Line
-	7700 4250 7700 4350
-$Comp
-L Device:Fuse_Small F104
-U 1 1 61EC3B1F
-P 8000 4550
-F 0 "F104" H 8150 4500 50  0000 C CNN
-F 1 "1A" H 7900 4500 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8000 4550 50  0001 C CNN
-F 3 "~" H 8000 4550 50  0001 C CNN
-	1    8000 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Fuse_Small F103
-U 1 1 61EC36A4
-P 8000 4450
-F 0 "F103" H 8150 4400 50  0000 C CNN
-F 1 "1A" H 7900 4400 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8000 4450 50  0001 C CNN
-F 3 "~" H 8000 4450 50  0001 C CNN
-	1    8000 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Fuse_Small F102
-U 1 1 61EC3319
-P 8000 4350
-F 0 "F102" H 8150 4300 50  0000 C CNN
-F 1 "1A" H 7900 4300 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8000 4350 50  0001 C CNN
-F 3 "~" H 8000 4350 50  0001 C CNN
-	1    8000 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Fuse_Small F101
-U 1 1 61EE40E9
-P 8000 4250
-F 0 "F101" H 8150 4200 50  0000 C CNN
-F 1 "1A" H 7900 4200 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8000 4250 50  0001 C CNN
-F 3 "~" H 8000 4250 50  0001 C CNN
-	1    8000 4250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5750 2800 5750 2550
 Connection ~ 5750 2800
@@ -510,7 +309,7 @@ U 1 1 61EAFC29
 P 6350 4550
 F 0 "L101" V 6450 4500 50  0000 L CNN
 F 1 "33uH 5A" V 6300 4400 50  0000 L CNN
-F 2 "Inductor_SMD:L_10.4x10.4_H4.8" H 6350 4550 50  0001 C CNN
+F 2 "coilcraft_THT:CoilCraft_AGP2923" H 6350 4550 50  0001 C CNN
 F 3 "~" H 6350 4550 50  0001 C CNN
 	1    6350 4550
 	0    -1   -1   0   
@@ -532,7 +331,7 @@ U 1 1 61EAF298
 P 3650 4750
 F 0 "C102" H 3650 4850 50  0000 L CNN
 F 1 "470uF 50V" H 3650 4650 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm" H 3650 4750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 3650 4750 50  0001 C CNN
 F 3 "~" H 3650 4750 50  0001 C CNN
 	1    3650 4750
 	1    0    0    -1  
@@ -560,10 +359,6 @@ F 3 "https://datasheet.lcsc.com/lcsc/1808111512_XLSEMI-XL4005E1_C73332.pdf" H 52
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 4350 2700 4450
-Wire Wire Line
-	2700 4750 2700 4850
-Wire Wire Line
 	2000 5200 2700 5200
 Wire Wire Line
 	2700 5200 2700 4950
@@ -574,4 +369,62 @@ Connection ~ 3250 4550
 Wire Wire Line
 	3250 4950 2700 4950
 Connection ~ 3250 4950
+Wire Wire Line
+	7250 4550 7900 4550
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J101
+U 1 1 637AE074
+P 2300 4250
+F 0 "J101" H 2350 4350 50  0000 C CNN
+F 1 "V_IN" H 2350 4050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2300 4250 50  0001 C CNN
+F 3 "~" H 2300 4250 50  0001 C CNN
+	1    2300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4550 2700 4550
+Wire Wire Line
+	2000 4350 2000 4550
+Wire Wire Line
+	2700 4350 2700 4550
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J102
+U 1 1 637B29DF
+P 2300 4850
+F 0 "J102" H 2350 4950 50  0000 C CNN
+F 1 "GND_IN" H 2350 4650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2300 4850 50  0001 C CNN
+F 3 "~" H 2300 4850 50  0001 C CNN
+	1    2300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J103
+U 1 1 637B3F1F
+P 8200 4350
+F 0 "J103" H 8200 4550 50  0000 C CNN
+F 1 "V_OUT" H 8200 4050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8200 4350 50  0001 C CNN
+F 3 "~" H 8200 4350 50  0001 C CNN
+	1    8200 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 4550
+$Comp
+L Connector_Generic:Conn_01x04 J104
+U 1 1 637BDFEB
+P 8200 5150
+F 0 "J104" H 8200 5350 50  0000 C CNN
+F 1 "GND_OUT" H 8200 4850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8200 5150 50  0001 C CNN
+F 3 "~" H 8200 5150 50  0001 C CNN
+	1    8200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5050 7900 5050
+Connection ~ 7250 5050
+Connection ~ 7900 5050
+NoConn ~ 5750 1650
 $EndSCHEMATC
