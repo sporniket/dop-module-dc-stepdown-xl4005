@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Step-down DC-DC converter"
-Date "2022-01-21"
-Rev "1"
+Title "Step-down DC-DC converter using XL4005"
+Date "2022-11-23"
+Rev "1.0.0-draft"
 Comp "Sporniket-Studio.com"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "https://github.com/sporniket/dop-module-dc-stepdown-xl4005"
+Comment4 "Original github :"
 $EndDescr
 Connection ~ 7250 4550
 Wire Wire Line
