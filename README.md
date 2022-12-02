@@ -25,7 +25,26 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ### Release notes
 
-> No releases yet
+#### v1.0.0
+
+* Schematic, gerbers, bom and cpl files to get CMS assembled.
+
+The 2K variable resistor seems discontinued. At least, it was unavailable at LCSC at time of ordering the first batch.
+
+A selection for the big capacitors, the inductor, and the trimming potentiometer :
+
+|Manufacturer|Mfr. No|Description |
+|---|---|---|
+|Rubycon|50ZLJ470M12.5X16|Aluminium Electrolytic Capacitors - Radial Leaded LOW IMPEDANCE ELECTROLYTIC CAPACITORS|
+|Rubycon|50YXJ470M12.5X20|Aluminium Electrolytic Capacitors - Radial Leaded LOW IMPEDANCE ELECTROLYTIC CAPACITORS|
+|KEMET|A759PY687M1HAAE026|Aluminium Organic Polymer Capacitors 50Vol 680uF RAD 2KHr ESR=26 mOhms|
+|Coilcraft|VER2923-333KL|Power Inductors - Leaded 33uH Shld 10% 26A 2.6mOhms|
+|Coilcraft|AGP2923-333KL|Power Inductors - Leaded 33uH Shld 10% 26A 2.6mOhms AECQ2|
+|Bourns|3214W-2-202E|Trimmer Resistors - SMD 4MM SQ MT CERMET TRIMMER SMD|
+|Bourns|3214W-1-202G|Trimmer Resistors - SMD 4MM SQ 2KOHMS 10% 5TURN|
+|Bourns|3214W-1-202E|Trimmer Resistors - SMD 4mm SQ 2K OHM|
+
+
 
 ## 2. What should you know before using **DOP (Delivery Of Power) Module** ?
 
