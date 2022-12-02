@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Step-down DC-DC converter using XL4005"
 Date "2022-11-23"
-Rev "1.0.0-draft"
+Rev "1.0.0"
 Comp "Sporniket-Studio.com"
 Comment1 ""
 Comment2 ""
